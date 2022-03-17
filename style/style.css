@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Common */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ------------------ */
 .container{
     margin: auto;
     width: 80%;
@@ -16,6 +24,7 @@ header{
     background-color: plum;
     margin-top: 20px;
 }
+
 /* Main */
 .section-1{
     width: 100%;
@@ -36,3 +45,38 @@ header{
     height: 70px;
     background-color: rgb(148, 202, 225);
 }
+
+.bottom-section{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-left, .col-mid{
+    float: left;
+    background-color: rgb(148, 202, 225);
+    min-height: 390px;
+}
+
+.col-right{
+    float: right;
+    background-color: rgb(148, 202, 225);
+    min-height: 390px;
+}
+
+.col-left, .col-right{
+    width: 20%;
+}
+
+.col-right{
+    margin-left: 15px;
+}
+
+.col-left{
+    margin-right: 15px;
+}
+
+
+.col-mid{
+    width: calc(60% - 30px);
+    }
