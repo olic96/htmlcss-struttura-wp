@@ -9,3 +9,10 @@
     margin: auto;
     width: 80%;
 }
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: plum;
+    margin-top: 20px;
+}
