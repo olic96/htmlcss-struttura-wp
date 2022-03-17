@@ -28,7 +28,7 @@ header{
 /* Main */
 .section-1{
     width: 100%;
-    height: 300px;
+    min-height: 300px;
     background-color: rgb(232, 232, 57);
     margin-top: 20px;
 }
@@ -52,14 +52,8 @@ header{
     margin-bottom: 20px;
 }
 
-.col-left, .col-mid{
+.col-left, .col-mid, .col-right{
     float: left;
-    background-color: rgb(148, 202, 225);
-    min-height: 390px;
-}
-
-.col-right{
-    float: right;
     background-color: rgb(148, 202, 225);
     min-height: 390px;
 }
@@ -78,7 +72,8 @@ header{
 
 .col-mid{
     width: calc(60% - 30px);
-    }
+}
+/* End Main */
 
 footer{
     width: 100%;
