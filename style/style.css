@@ -16,3 +16,10 @@ header{
     background-color: plum;
     margin-top: 20px;
 }
+
+.section-1{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(232, 232, 57);
+    margin-top: 20px;
+}
